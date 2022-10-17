@@ -1,0 +1,32 @@
+.peony {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .text {
+    width: 800px;
+    justify-content:center;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .back {
+    margin-top: 20px;
+    padding: 8px 10px;
+    color: rgb(113, 113, 242);
+  }
+  
+  .back:hover {
+    color:darkblue;
+    transition: all 0.4s ease-out;
+  }
+
+  .img{
+    flex-direction: column;
+    justify-content: left;
+    max-width:500px;
+    width:100%;
+  }

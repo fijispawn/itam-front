@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 50px;
+}
+
+.title {
+  font-size: 60px;
+  margin-left: 60px;
+  font-weight: bold;
+  background: url(https://www.farmersalmanac.com/wp-content/uploads/2021/04/forget-me-not-flower-as309740666.jpeg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.menu {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 50px;
+}
+
+.menu .button:last-child {
+  margin-right: unset;
+}
+
+.button {
+  margin-right: 40px;
+  padding: 8px 10px;
+  color: rgb(113, 113, 242);
+  padding: 8px 10px;
+}
+
+.button:hover,
+.button:active {
+  color: darkblue;
+  transition: all 0.4s ease-out;
+}

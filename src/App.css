@@ -1,0 +1,7 @@
+#root {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  width: 100%;
+  transition: background-color 400ms linear;
+  height: 100%;
+}
